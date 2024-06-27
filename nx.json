@@ -20,13 +20,14 @@
     "git": {
       "commit": true,
       "tag": true
+    },
+    "changelog": {
+      "projectChangelogs": {
+        "createRelease": "github",
+        "file": "CHANGELOG.md"
+      }
     }
   },
-  "changelog": {
-    "projectChangelogs": {
-      "createRelease": "github",
-      "file": true
-    }
-  },
+
   "defaultBase": "main"
 }
