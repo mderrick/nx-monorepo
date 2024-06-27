@@ -17,6 +17,30 @@
     "version": {
       "conventionalCommits": true
     },
+    "conventionalCommits": {
+      "types": {
+        "fix": false,
+        "feat": false,
+        "patch": {
+          "semverBump": "patch",
+          "changelog": {
+            "title": "Patch Changes"
+          }
+        },
+        "minor": {
+          "semverBump": "minor",
+          "changelog": {
+            "title": "Minor Changes"
+          }
+        },
+        "major": {
+          "semverBump": "major",
+          "changelog": {
+            "title": "Major Changes"
+          }
+        }
+      }
+    },
     "git": {
       "commit": true,
       "tag": true
