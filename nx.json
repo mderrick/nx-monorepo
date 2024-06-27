@@ -48,7 +48,7 @@
     "changelog": {
       "projectChangelogs": {
         "createRelease": "github",
-        "file": "CHANGELOG.md"
+        "file": "{projectRoot}/CHANGELOG.md"
       }
     }
   },
