@@ -1,0 +1,23 @@
+{
+  "name": "@mderrick/nx-subtract",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mderrick/nx-monorepo.git",
+    "directory": "packages/subtract"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "exports": {
+    ".": "./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}

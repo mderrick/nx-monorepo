@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "test": {
+      "dependsOn": [],
+      "cache": true
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/build"],
+      "cache": true
+    }
+  },
+  "release": {
+    "projects": ["*", "!compute"],
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true
+    },
+    "git": {
+      "commit": true,
+      "tag": true
+    }
+  },
+  "changelog": {
+    "projectChangelogs": {
+      "createRelease": "github",
+      "file": true
+    }
+  },
+  "defaultBase": "main"
+}
