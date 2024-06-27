@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mderrick/nx-add": "^1.0.0",
+    "@mderrick/nx-add": "^2.1.0",
     "@mderrick/nx-subtract": "^1.0.0"
   },
   "devDependencies": {
