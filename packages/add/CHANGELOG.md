@@ -1,3 +1,15 @@
+## 2.4.0 (2024-07-01)
+
+
+### 🚀 Features
+
+- add 6 ([e9eb540](https://github.com/mderrick/nx-monorepo/commit/e9eb540))
+
+
+### ❤️  Thank You
+
+- Matthew Derrick
+
 ## 2.3.0 (2024-07-01)
 
 
