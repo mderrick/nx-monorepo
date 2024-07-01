@@ -1,3 +1,15 @@
+## 3.1.0 (2024-07-01)
+
+
+### 🚀 Features
+
+- add 9 ([56de60e](https://github.com/mderrick/nx-monorepo/commit/56de60e))
+
+
+### ❤️  Thank You
+
+- Matthew Derrick
+
 # 3.0.0 (2024-07-01)
 
 
