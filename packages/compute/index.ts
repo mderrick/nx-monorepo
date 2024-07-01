@@ -1,4 +1,4 @@
-import { add } from "@mderrick/nx-add";
-import { subtract } from "@mderrick/nx-subtract";
+import { add } from '@mderrick/nx-add';
+import { subtract } from '@mderrick/nx-subtract';
 
-console.log(add(1, subtract(3, 2)));
+console.log(add(1, subtract(3, 3)));
