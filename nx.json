@@ -12,7 +12,7 @@
     }
   },
   "release": {
-    "projects": ["*", "!nx-compute"],
+    "projects": ["*", "!@mderrick/nx-compute"],
     "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true
