@@ -15,7 +15,10 @@
     "projects": ["*", "!@mderrick/nx-compute"],
     "projectsRelationship": "independent",
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "generatorOptions": {
+        "skipLockFileUpdate": true
+      }
     },
     "git": {
       "commit": true,
