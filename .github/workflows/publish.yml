@@ -31,7 +31,7 @@ jobs:
           git config --global user.name 'Bot'
           git config --global user.email '1044686+mderrick@users.noreply.github.com'
       - name: Publish packages
-        run: ./node_modules/.bin/nx release --yes ${{ inputs.dryRun == 'true' && '--dry-run' || '' }}
+        run: ./node_modules/.bin/nx release --yes ${{ inputs.dryRun && '--dry-run' || '' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,4 +44,4 @@ jobs:
         if: ${{inputs.dryRun}} !== 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Update package-lock.json'
+          commit_message: 'chore(release): update package-lock.json'
