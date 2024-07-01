@@ -1,3 +1,15 @@
+## 2.5.0 (2024-07-01)
+
+
+### 🚀 Features
+
+- add 7 ([ac4e110](https://github.com/mderrick/nx-monorepo/commit/ac4e110))
+
+
+### ❤️  Thank You
+
+- Matthew Derrick
+
 ## 2.4.0 (2024-07-01)
 
 
