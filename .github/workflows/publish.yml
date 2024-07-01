@@ -22,8 +22,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://npm.pkg.github.com'
-      - name: Print Environment Info
-        run: ./node_modules/.bin/nx report
       - name: Install packages
         run: npm ci
         env:
