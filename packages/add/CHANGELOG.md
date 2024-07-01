@@ -1,3 +1,19 @@
+# 3.0.0 (2024-07-01)
+
+
+### 🚀 Features
+
+- ⚠️  add 8 ([845f33e](https://github.com/mderrick/nx-monorepo/commit/845f33e))
+
+
+#### ⚠️  Breaking Changes
+
+- ⚠️  add 8 ([845f33e](https://github.com/mderrick/nx-monorepo/commit/845f33e))
+
+### ❤️  Thank You
+
+- Matthew Derrick
+
 ## 2.5.0 (2024-07-01)
 
 
